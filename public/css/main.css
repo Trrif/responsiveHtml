@@ -1,0 +1,438 @@
+body {
+  font: 300 14px Roboto;
+}
+
+header {
+  background-image: url(../../public/img/background.png);
+  background-size: cover;
+}
+
+#navBar {
+  min-height: 70px;
+  margin-bottom: 150px;
+}
+
+#navMenu {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.navButton a {
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font: 900 13px Roboto;
+}
+
+.navButton a:hover {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  color: #00e0d0;
+}
+
+#homeTitle {
+  text-align: center;
+  color: #FFF;
+  font: 900 32px 'Playfair Display';
+}
+
+#homeLine {
+  border: none;
+  background-color: #00e0d0;
+  height: 1px;
+  width: 50px;
+}
+
+#expertiseLine {
+  border: none;
+  background-color: #413d4b;
+  height: 1px;
+  width: 50px;
+}
+
+#teamLine {
+  border: none;
+  background-color: #413d4b;
+  height: 1px;
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+#homeText {
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: .7px;
+  color: #FFF;
+  margin-bottom: 50px;
+  font: 300 14px;
+}
+
+#homeButton {
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+.customButton {
+  color: #00e0d0;
+  border: solid 1px;
+  font: 16px 'Hammersmith One';
+  border-color: #00e0d0;
+}
+
+#aboutTitle {
+  color: #413d4b;
+  margin-bottom: 25px;
+  font: 700 22px 'Playfair Display';
+  text-transform: uppercase;
+}
+
+.aboutTextBlock {
+  color: #413d4b;
+  letter-spacing: .66px;
+  margin-bottom: 30px;
+}
+
+#aboutVideo {
+  color: #FFF;
+  text-align: center;
+  background-image: url(../../public/img/aboutBackground.png);
+  background-size: cover;
+}
+
+#playIcon {
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+#playIcon a {
+  cursor: pointer;
+}
+
+#playText {
+  margin-bottom: 200px;
+  font: 900 16px Roboto;
+}
+
+#expertise {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.cardIcon {
+  font-size: 50px;
+  color: #00e0d0;
+  margin-bottom: 35px;
+}
+
+.cardText {
+  text-align: center;
+  vertical-align: 22px;
+  letter-spacing: .7px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  margin-bottom: 25px;
+  font: 900 14px Roboto;
+}
+
+#expertiseWrapper {
+  border-bottom: 1px solid #413d4b;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#teams {
+  color: #FFF;
+  text-align: center;
+  background-image: url(../../public/img/teamBackground.png);
+  background-size: cover;
+}
+
+.teamCard {
+  border: solid 1px #413d4b;
+  margin: 0;
+}
+
+#teamTitle {
+  margin-top: 70px;
+  font: 700 22px 'Playfair Display';
+  margin-bottom: 15px;
+}
+
+.teamCardTitle {
+  font: 900 14px Roboto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.teamCardText {
+  font: 900 13px Roboto;
+  margin-bottom: 20px;
+}
+
+#teamDescription {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.right {
+  text-align: right;
+}
+
+#worksTitle {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font: 700 22px 'Playfair Display';
+}
+
+#worksText {
+  text-decoration: none;
+  color: #413d4b;
+  font: 300 14px Roboto;
+}
+
+.flexRow {
+  display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-template-columns: repeat(6, minmax(1px, 260px));
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+#worksButton {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+#peopleSay {
+  background-image: url(../../public/img/peopleSayBackground.png);
+  background-size: cover;
+}
+
+.carousel-indicators {
+  bottom: 70px;
+  text-align: center;
+  margin-left: 0;
+}
+
+.carousel-indicators li {
+  background: none;
+  text-indent: 0;
+  width: auto;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.carousel-indicators .active {
+  background: none;
+  display: inline-block;
+}
+
+.carousel-indicators .active img {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+
+#carouselButtons {
+  text-align: center;
+  font-size: 20px;
+}
+
+#peopleSayCarouselNavigation {
+  text-align: center;
+  display: inline-block;
+}
+
+.quotes {
+  color: #FFF;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+  font: 100px 'Playfair Display';
+}
+
+.carouselText {
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 50px;
+  font: 16px 'Playfair Display';
+}
+
+.personName {
+  text-align: center;
+  color: #FFF;
+  font: 900 14px Roboto;
+  margin-bottom: 15px;
+}
+
+.personProfession {
+  color: #FFF;
+  text-align: center;
+  font: 300 13px Roboto;
+  margin-bottom: 180px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 130%;
+  height: 25px;
+  font-size: 25px;
+}
+
+.companyLogo {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contactTitle {
+  font: 700 22px 'Playfair Display';
+  margin-bottom: 30px;
+}
+
+.contactInput {
+  height: 45px;
+  margin-bottom: 25px;
+}
+
+.message {
+  height: 200px;
+}
+
+footer {
+  background-image: url(../../public/img/footerBackground.png);
+  background-size: cover;
+}
+
+.footerTitle {
+  margin-bottom: 70px;
+  color: #FFF;
+  font: 900 15px Roboto;
+}
+
+.footerContent {
+  margin-bottom: 70px;
+  color: #FFF;
+  font: 300 14px Roboto;
+  vertical-align: middle;
+}
+
+.footerButton a {
+  text-decoration: none;
+  color: #FFF;
+  font: 400 14px Roboto;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.footerButton a:hover {
+  color: #00e0d0;
+}
+
+.footerInputButton {
+  height: 45px;
+  width: 70px;
+  background-color: #9d97b1;
+  border: none;
+  color: #2a282f;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footerInput {
+  height: 45px;
+  margin-right: 10px;
+  border: 1px solid #9d97b1;
+  background: none;
+  color: #FFF;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.footerDescription {
+  color: #FFF;
+}
+
+.socialButton {
+  border: 1px solid #FFF;
+  border-radius: 9999px;
+  font-size: 15px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.socialButton svg {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
+.socialButton:hover {
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
+
+#aboutImage {
+  margin-bottom: 30px;
+}
+
+#navColapse,
+#aboutImage,
+#works {
+  text-align: center;
+}
+
+#navMenu:hover,
+#playIcon a:hover {
+  color: #00e0d0;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.navButton,
+.footerButton {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#about,
+#contact,
+#footer {
+  margin-top: 70px;
+}
+
+#expertiseTitle,
+#clientsTitle {
+  font: 700 22px 'Playfair Display';
+}
+
+#expertiseTitleText,
+#teamTitleText {
+  font: 14px 'Playfair Display';
+}
+
+.footerPiece,
+#aboutButton,
+#teamButton,
+#contactButton,
+#contactForm {
+  margin-bottom: 70px;
+}

@@ -11,7 +11,9 @@ header {
   min-height: 70px;
   margin-bottom: 150px;
 }
-
+#navButtons{
+  text-align: right;
+}
 #navMenu {
   color: #FFF;
   font-size: 20px;

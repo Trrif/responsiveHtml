@@ -23,7 +23,6 @@ header {
   text-transform: uppercase;
   font: 900 13px Roboto;
 }
-
 .navButton a:hover {
   -webkit-transition-property: all;
   transition-property: all;
@@ -222,23 +221,20 @@ header {
   margin-left: 0;
 }
 
-.carousel-indicators li {
+.carousel-indicators img {
   background: none;
   text-indent: 0;
-  width: auto;
   display: inline-block;
   cursor: pointer;
-  margin: 10px;
 }
 
 .carousel-indicators .active {
   background: none;
-  display: inline-block;
 }
 
 .carousel-indicators .active img {
-  width: 70px;
-  height: 70px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   display: inline-block;
 }
 
@@ -283,8 +279,6 @@ header {
 
 .carousel-control-next,
 .carousel-control-prev {
-  top: 130%;
-  height: 25px;
   font-size: 25px;
 }
 
@@ -351,7 +345,7 @@ footer {
 
 .footerInput {
   height: 45px;
-  margin-right: 10px;
+  width: 100%;
   border: 1px solid #9d97b1;
   background: none;
   color: #FFF;

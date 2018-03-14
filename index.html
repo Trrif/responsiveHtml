@@ -317,17 +317,18 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div id="worksCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="col-12 carousel-indicators">
-              <li data-target="#worksCarousel" data-slide-to="0" class="col-3 carouselItem active">
+          <div id="worksCarousel" class="row carousel slide" data-ride="carousel">
+            <div class="col-12 carousel-indicators">
+              <div data-target="#worksCarousel" data-slide-to="0" class="col-2 carouselItem active">
                 <img src="./public/img/1.png" alt="">
-              </li>
-              <li data-target="#worksCarousel" data-slide-to="1" class="col-3 carouselItem">
+              </div>
+              <div data-target="#worksCarousel" data-slide-to="1" class="col-2 carouselItem">
                 <img src="./public/img/2.png" alt="">
-              </li>
-              <li data-target="#worksCarousel" data-slide-to="2" class="col-3 carouselItem">
+              </div>
+              <div data-target="#worksCarousel" data-slide-to="2" class="col-2 carouselItem">
                 <img src="./public/img/1.png" alt="">
-              </li>
+              </div>
+
               <div class="col-1 order-first control">
                 <a class="carousel-control-prev" href="#worksCarousel" role="button" data-slide="prev">
                   <i class="fas fa-angle-left"></i>
@@ -338,7 +339,7 @@
                   <i class="fas fa-angle-right"></i>
                 </a>
               </div>
-            </ol>
+            </div>
 
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -420,44 +421,44 @@
             <div class="col-12" id="clientsTitle">
               OUR HAPPY CLIENT
             </div>
-            <div class="col-lg-4 col-sm-12 companyLogo">
+            <div class="col-lg-4 col-sm-6 companyLogo">
               <object type="image/svg+xml" data="public/img/zara_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 offset-lg-2 companyLogo">
+            <div class="col-lg-4 col-sm-6 offset-lg-2 companyLogo">
               <object type="image/svg+xml" data="public/img/mango_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 companyLogo">
+            <div class="col-lg-4 col-sm-6 companyLogo">
               <object type="image/svg+xml" data="public/img/barneys_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 offset-lg-2 companyLogo">
+            <div class="col-lg-4 col-sm-6 offset-lg-2 companyLogo">
               <object type="image/svg+xml" data="public/img/gucci_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 companyLogo">
+            <div class="col-lg-4 col-sm-6 companyLogo">
               <object type="image/svg+xml" data="public/img/calvin_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 offset-lg-2 companyLogo">
+            <div class="col-lg-4 col-sm-6 offset-lg-2 companyLogo">
               <object type="image/svg+xml" data="public/img/nike_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 companyLogo">
+            <div class="col-lg-4 col-sm-6 companyLogo">
               <object type="image/svg+xml" data="public/img/converse_logo.svg">
               </object>
             </div>
 
-            <div class="col-lg-4 col-sm-12 offset-lg-2 companyLogo">
+            <div class="col-lg-4 col-sm-6 offset-lg-2 companyLogo">
               <object type="image/svg+xml" data="public/img/puma_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 companyLogo">
+            <div class="col-lg-4 col-sm-6 companyLogo">
               <object type="image/svg+xml" data="public/img/levis_logo.svg">
               </object>
             </div>
-            <div class="col-lg-4 col-sm-12 offset-lg-2 companyLogo">
+            <div class="col-lg-4 col-sm-6 offset-lg-2 companyLogo">
               <object type="image/svg+xml" data="public/img/billabong_logo.svg">
               </object>
             </div>
@@ -483,21 +484,31 @@
                 odio non mauris vitae erat in elit
               </div>
               <div class="col-12 footerDescription">
-                <div class="footerButton">
-                  <a href="#">
-                    HELP
-                  </a>
+                <div class="row no-gutters">
+                  <div class="col-4">
+                    <div class="footerButton">
+                      <a href="#">
+                        HELP
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footerButton">
+                      <a href="#">
+                        TERMS & CONDITION
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="footerButton">
+                      <a href="#">
+                        PRIVACY
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="footerButton">
-                  <a href="#">
-                    TERMS & CONDITION
-                  </a>
-                </div>
-                <div class="footerButton">
-                  <a href="#">
-                    PRIVACY
-                  </a>
-                </div>
+
+
               </div>
             </div>
             <div class="col-lg-4 col-sm-12 footerPiece">
@@ -517,11 +528,17 @@
                 STAY IN TOUCH
               </div>
               <div class="col-12 footerContent">
-                <input type="text" class="footerInput" placeholder="Subscribe our newslatter">
-                </input>
-                <button type="button" class="btn btn-outline-primary footerInputButton">
-                  <i class="fas fa-paper-plane"></i>
-                </button>
+                <div class="row">
+                  <div class="col-lg-8 col-sm-6">
+                    <input type="text" class="footerInput" placeholder="Subscribe our newslatter">
+                    </input>
+                  </div>
+                  <div class="col-lg-2 col-sm-2">
+                    <button type="button" class="btn btn-outline-primary footerInputButton">
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
                 <br>
                 <a class="socialButton" href="#">
                   <i class="fab fa-facebook-f"></i>
